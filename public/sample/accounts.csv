@@ -1,0 +1,392 @@
+account_id,system,username,employee_id,owner_id,account_type,enabled,last_login,mfa_enrolled,entitlements
+A0001,Entra ID,paula.taylor@northwind.example,E1001,,human,true,2026-09-23,true,All Employees;Dept-Executive
+A0002,Okta,paula.taylor@northwind.example,E1001,,human,true,2026-09-30,true,Everyone
+A0003,Entra ID,elena.alvarez@northwind.example,E1002,,human,true,2026-09-19,true,All Employees;Dept-Finance
+A0004,Okta,elena.alvarez@northwind.example,E1002,,human,true,2026-09-23,true,Everyone
+A0005,ERP,elena.alvarez@northwind.example,E1002,,human,true,2026-09-30,true,AR.ViewReports;GL.ApproveJournal;ERP.Admin
+A0006,Entra ID,ivan.romero@northwind.example,E1003,,human,false,2026-06-23,true,All Employees;Dept-Finance
+A0007,Okta,ivan.romero@northwind.example,E1003,,human,false,2026-06-24,true,Everyone
+A0008,ERP,ivan.romero@northwind.example,E1003,,human,true,2026-06-22,true,AP.EnterInvoice;AP.CreateVendor
+A0009,Entra ID,elena.johnson@northwind.example,E1004,,human,true,2026-09-27,true,All Employees;Dept-Finance
+A0010,Okta,elena.johnson@northwind.example,E1004,,human,true,2026-09-10,true,Everyone
+A0011,ERP,elena.johnson@northwind.example,E1004,,human,true,2026-09-25,true,AP.EnterInvoice;AP.CreateVendor;AP.ApprovePayment
+A0012,Entra ID,hugo.torres@northwind.example,E1005,,human,true,2026-09-24,true,All Employees;Dept-Finance
+A0013,Okta,hugo.torres@northwind.example,E1005,,human,true,2026-09-26,true,Everyone
+A0014,ERP,hugo.torres@northwind.example,E1005,,human,true,2026-09-30,true,AP.EnterInvoice;AP.CreateVendor
+A0015,Entra ID,ethan.miller@northwind.example,E1006,,human,true,2026-09-26,true,All Employees;Dept-Finance
+A0016,Okta,ethan.miller@northwind.example,E1006,,human,true,2026-09-24,true,Everyone
+A0017,ERP,ethan.miller@northwind.example,E1006,,human,true,2026-09-20,true,AP.ApprovePayment;AR.ViewReports;AP.EnterInvoice
+A0018,Entra ID,benjamin.herrera@northwind.example,E1007,,human,true,2026-09-14,true,All Employees;Dept-Finance
+A0019,Okta,benjamin.herrera@northwind.example,E1007,,human,true,2026-09-27,true,Everyone
+A0020,ERP,benjamin.herrera@northwind.example,E1007,,human,true,2026-09-27,true,GL.PostJournal;AR.ViewReports;GL.ApproveJournal
+A0021,Entra ID,ivan.suarez@northwind.example,E1008,,human,false,2026-07-31,true,All Employees;Dept-Finance
+A0022,Okta,ivan.suarez@northwind.example,E1008,,human,false,2026-07-29,true,Everyone
+A0023,ERP,ivan.suarez@northwind.example,E1008,,human,false,2026-07-31,true,GL.PostJournal;AR.ViewReports
+A0024,Entra ID,mia.romero@northwind.example,E1009,,human,true,2026-09-10,true,All Employees;Dept-Finance
+A0025,Okta,mia.romero@northwind.example,E1009,,human,true,2026-09-22,true,Everyone
+A0026,ERP,mia.romero@northwind.example,E1009,,human,true,2026-09-23,true,GL.PostJournal;AR.ViewReports
+A0027,Entra ID,emily.medina@northwind.example,E1010,,human,true,2026-09-28,true,All Employees;Dept-Finance
+A0028,Okta,emily.medina@northwind.example,E1010,,human,true,2026-09-20,true,Everyone
+A0029,ERP,emily.medina@northwind.example,E1010,,human,true,2026-09-17,true,GL.ApproveJournal;AR.ViewReports
+A0030,Entra ID,chloe.acosta@northwind.example,E1011,,human,true,2026-09-11,true,All Employees;Dept-Finance
+A0031,Okta,chloe.acosta@northwind.example,E1011,,human,true,2026-09-30,true,Everyone
+A0032,ERP,chloe.acosta@northwind.example,E1011,,human,true,2025-08-26,true,AR.ViewReports
+A0033,Entra ID,mia.walker@northwind.example,E1012,,human,true,2026-09-16,true,All Employees;Dept-Finance
+A0034,Okta,mia.walker@northwind.example,E1012,,human,true,2026-09-23,true,Everyone
+A0035,ERP,mia.walker@northwind.example,E1012,,human,true,2026-09-24,true,AP.EnterInvoice;AP.CreateVendor
+A0036,Entra ID,diego.benitez@northwind.example,E1013,,human,true,2026-09-10,true,All Employees;Dept-Finance
+A0037,Okta,diego.benitez@northwind.example,E1013,,human,true,2026-09-29,false,Everyone
+A0038,ERP,diego.benitez@northwind.example,E1013,,human,true,2026-09-17,true,AP.EnterInvoice;AP.CreateVendor
+A0039,Entra ID,grace.castro@northwind.example,E1014,,human,true,2026-09-12,true,All Employees;Dept-Finance
+A0040,Okta,grace.castro@northwind.example,E1014,,human,true,2026-09-15,true,Everyone
+A0041,ERP,grace.castro@northwind.example,E1014,,human,true,2026-09-20,true,AP.EnterInvoice;AP.CreateVendor
+A0042,Entra ID,felipe.alvarez@northwind.example,E1015,,human,true,2026-09-13,true,All Employees;Dept-Finance
+A0043,Okta,felipe.alvarez@northwind.example,E1015,,human,true,2026-09-27,true,Everyone
+A0044,ERP,felipe.alvarez@northwind.example,E1015,,human,true,2026-09-29,true,AP.ApprovePayment;AR.ViewReports
+A0045,Entra ID,hugo.moore@northwind.example,E1016,,human,true,2026-09-21,true,All Employees;Dept-Finance
+A0046,Okta,hugo.moore@northwind.example,E1016,,human,true,2026-09-13,true,Everyone
+A0047,ERP,hugo.moore@northwind.example,E1016,,human,true,2026-09-10,true,GL.PostJournal;AR.ViewReports
+A0048,Entra ID,victoria.garcia@northwind.example,E1017,,human,true,2026-09-13,true,All Employees;Dept-Finance
+A0049,Okta,victoria.garcia@northwind.example,E1017,,human,true,2026-09-20,true,Everyone
+A0050,ERP,victoria.garcia@northwind.example,E1017,,human,true,2026-09-24,true,GL.PostJournal;AR.ViewReports
+A0051,Entra ID,bruno.diaz@northwind.example,E1018,,human,true,2026-09-11,true,All Employees;Dept-Engineering
+A0052,Okta,bruno.diaz@northwind.example,E1018,,human,true,2026-09-23,true,Everyone
+A0053,GitHub,bruno-diaz,E1018,,human,true,2026-09-24,true,maintainer
+A0054,AWS,bruno-diaz,E1018,,human,true,2026-09-14,true,ReadOnlyAccess
+A0055,Entra ID,ivan.miller@northwind.example,E1019,,human,false,2026-04-30,true,All Employees;Dept-Engineering
+A0056,Okta,ivan.miller@northwind.example,E1019,,human,false,2026-05-01,true,Everyone
+A0057,GitHub,ivan-miller,E1019,,human,true,2026-08-31,true,member
+A0058,AWS,ivan-miller,E1019,,human,false,2026-04-30,true,ReadOnlyAccess
+A0059,Entra ID,isabella.herrera@northwind.example,E1020,,human,false,2026-03-02,true,All Employees;Dept-Engineering
+A0060,Okta,isabella.herrera@northwind.example,E1020,,human,false,2026-03-02,true,Everyone
+A0061,GitHub,isabella-herrera,E1020,,human,false,2026-02-27,true,member
+A0062,AWS,isabella-herrera,E1020,,human,true,2026-02-28,true,ReadOnlyAccess
+A0063,Entra ID,zoe.medina@northwind.example,E1021,,human,true,2026-09-19,true,All Employees;Dept-Engineering
+A0064,Okta,zoe.medina@northwind.example,E1021,,human,true,2026-09-16,false,Everyone
+A0065,GitHub,zoe-medina,E1021,,human,true,2026-09-20,true,member
+A0066,AWS,zoe-medina,E1021,,human,true,2026-09-16,true,PowerUserAccess
+A0067,Entra ID,mateo.suarez@northwind.example,E1022,,human,true,2026-09-17,true,All Employees;Dept-Engineering
+A0068,Okta,mateo.suarez@northwind.example,E1022,,human,true,2026-09-23,true,Everyone
+A0069,GitHub,mateo-suarez,E1022,,human,true,2026-09-16,true,maintainer;org-owner
+A0070,AWS,mateo-suarez,E1022,,human,true,2026-09-26,true,PowerUserAccess;AdministratorAccess
+A0071,Entra ID,isabella.silva@northwind.example,E1023,,human,true,2026-09-30,true,All Employees;Dept-Engineering;User Administrator
+A0072,Okta,isabella.silva@northwind.example,E1023,,human,true,2026-09-12,true,Everyone
+A0073,GitHub,isabella-silva,E1023,,human,true,2026-09-25,true,maintainer
+A0074,AWS,isabella-silva,E1023,,human,true,2026-09-22,true,ReadOnlyAccess
+A0075,Entra ID,valentina.clark@northwind.example,E1024,,human,true,2026-04-30,true,All Employees;Dept-Engineering
+A0076,Okta,valentina.clark@northwind.example,E1024,,human,true,2026-05-11,true,Everyone
+A0077,GitHub,valentina-clark,E1024,,human,true,2026-06-01,true,member
+A0078,AWS,valentina-clark,E1024,,human,true,2026-05-20,true,ReadOnlyAccess
+A0079,Entra ID,daniel.suarez@northwind.example,E1025,,human,true,2026-09-30,true,All Employees;Dept-Engineering
+A0080,Okta,daniel.suarez@northwind.example,E1025,,human,true,2026-09-24,true,Everyone
+A0081,GitHub,daniel-suarez,E1025,,human,true,2026-09-10,true,member
+A0082,AWS,daniel-suarez,E1025,,human,true,2026-09-13,true,ReadOnlyAccess
+A0083,Entra ID,emily.taylor@northwind.example,E1026,,human,true,2026-09-23,true,All Employees;Dept-Engineering
+A0084,Okta,emily.taylor@northwind.example,E1026,,human,true,2026-09-17,true,Everyone
+A0085,GitHub,emily-taylor,E1026,,human,true,2026-09-19,true,member
+A0086,AWS,emily-taylor,E1026,,human,true,2026-09-29,true,ReadOnlyAccess
+A0087,Entra ID,paula.morales@northwind.example,E1027,,human,true,2026-09-23,true,All Employees;Dept-Engineering
+A0088,Okta,paula.morales@northwind.example,E1027,,human,true,2026-09-28,true,Everyone
+A0089,GitHub,paula-morales,E1027,,human,true,2026-09-10,true,member
+A0090,AWS,paula-morales,E1027,,human,true,2026-09-16,true,PowerUserAccess
+A0091,Entra ID,daniel.martinez@northwind.example,E1028,,human,true,2026-09-18,true,All Employees;Dept-Engineering
+A0092,Okta,daniel.martinez@northwind.example,E1028,,human,true,2026-09-26,true,Everyone
+A0093,GitHub,daniel-martinez,E1028,,human,true,2026-09-27,true,maintainer
+A0094,AWS,daniel-martinez,E1028,,human,true,2026-09-16,true,PowerUserAccess
+A0095,Entra ID,agustin.suarez@northwind.example,E1029,,human,true,2026-09-26,true,All Employees;Dept-Engineering
+A0096,Okta,agustin.suarez@northwind.example,E1029,,human,true,2026-09-12,true,Everyone
+A0097,GitHub,agustin-suarez,E1029,,human,true,2026-09-15,true,maintainer
+A0098,AWS,agustin-suarez,E1029,,human,true,2026-02-02,true,ReadOnlyAccess
+A0099,Entra ID,grace.garcia@northwind.example,E1030,,human,true,2026-09-10,true,All Employees;Dept-Engineering
+A0100,Okta,grace.garcia@northwind.example,E1030,,human,true,2026-09-22,true,Everyone
+A0101,GitHub,grace-garcia,E1030,,human,true,2026-09-27,true,member
+A0102,AWS,grace-garcia,E1030,,human,true,2026-09-25,true,ReadOnlyAccess
+A0103,Entra ID,olivia.smith@northwind.example,E1031,,human,true,2026-09-12,true,All Employees;Dept-Engineering
+A0104,Okta,olivia.smith@northwind.example,E1031,,human,true,2026-09-25,true,Everyone
+A0105,GitHub,olivia-smith,E1031,,human,true,2026-09-19,true,member
+A0106,AWS,olivia-smith,E1031,,human,true,2026-09-30,true,ReadOnlyAccess
+A0107,Entra ID,leo.lopez@northwind.example,E1032,,human,true,2026-09-24,true,All Employees;Dept-Engineering
+A0108,Okta,leo.lopez@northwind.example,E1032,,human,true,2026-09-20,true,Everyone
+A0109,GitHub,leo-lopez,E1032,,human,true,2026-09-20,true,member
+A0110,AWS,leo-lopez,E1032,,human,true,2026-09-14,true,ReadOnlyAccess
+A0111,Entra ID,daniel.garcia@northwind.example,E1033,,human,true,2026-09-27,true,All Employees;Dept-Engineering
+A0112,Okta,daniel.garcia@northwind.example,E1033,,human,true,2026-09-20,true,Everyone
+A0113,GitHub,daniel-garcia,E1033,,human,true,2026-05-22,true,member
+A0114,AWS,daniel-garcia,E1033,,human,true,2026-09-11,true,PowerUserAccess
+A0115,Entra ID,sofia.castro@northwind.example,E1034,,human,true,2026-09-17,true,All Employees;Dept-Engineering
+A0116,Okta,sofia.castro@northwind.example,E1034,,human,true,2026-09-20,true,Everyone
+A0117,GitHub,sofia-castro,E1034,,human,true,2026-09-23,true,maintainer
+A0118,AWS,sofia-castro,E1034,,human,true,2026-09-23,true,PowerUserAccess
+A0119,Entra ID,camila.acosta@northwind.example,E1035,,human,true,2026-09-12,true,All Employees;Dept-Engineering
+A0120,Okta,camila.acosta@northwind.example,E1035,,human,true,2026-09-30,true,Everyone
+A0121,GitHub,camila-acosta,E1035,,human,true,2026-09-23,true,maintainer
+A0122,AWS,camila-acosta,E1035,,human,true,2026-09-10,true,ReadOnlyAccess
+A0123,Entra ID,lucia.brown@northwind.example,E1036,,human,true,2026-09-19,true,All Employees;Dept-Engineering
+A0124,Okta,lucia.brown@northwind.example,E1036,,human,true,2026-09-22,true,Everyone
+A0125,GitHub,lucia-brown,E1036,,human,true,2026-09-20,true,member
+A0126,AWS,lucia-brown,E1036,,human,true,2026-09-19,true,ReadOnlyAccess
+A0127,Entra ID,sofia.silva@northwind.example,E1037,,human,true,2026-09-28,true,All Employees;Dept-Engineering
+A0128,Okta,sofia.silva@northwind.example,E1037,,human,true,2026-09-27,true,Everyone
+A0129,GitHub,sofia-silva,E1037,,human,true,2026-09-12,true,member
+A0130,AWS,sofia-silva,E1037,,human,true,2026-09-22,true,ReadOnlyAccess
+A0131,Entra ID,olivia.moore@northwind.example,E1038,,human,true,2026-09-25,true,All Employees;Dept-Engineering
+A0132,Okta,olivia.moore@northwind.example,E1038,,human,true,2026-09-25,true,Everyone
+A0133,GitHub,olivia-moore,E1038,,human,true,2026-09-22,true,member
+A0134,AWS,olivia-moore,E1038,,human,true,2026-09-19,true,ReadOnlyAccess
+A0135,Entra ID,luna.sosa@northwind.example,E1039,,human,true,2026-09-22,true,All Employees;Dept-Engineering
+A0136,Okta,luna.sosa@northwind.example,E1039,,human,true,2026-09-11,true,Everyone
+A0137,GitHub,luna-sosa,E1039,,human,true,2026-09-17,true,member
+A0138,AWS,luna-sosa,E1039,,human,true,2026-09-30,true,PowerUserAccess
+A0139,Entra ID,grace.morales@northwind.example,E1040,,human,true,2026-09-13,true,All Employees;Dept-Engineering
+A0140,Okta,grace.morales@northwind.example,E1040,,human,true,2026-09-16,true,Everyone
+A0141,GitHub,grace-morales,E1040,,human,true,2026-09-12,true,maintainer
+A0142,AWS,grace-morales,E1040,,human,true,2026-09-24,true,PowerUserAccess
+A0143,Entra ID,clara.walker@northwind.example,E1041,,human,true,2026-09-26,true,All Employees;Dept-Engineering
+A0144,Okta,clara.walker@northwind.example,E1041,,human,true,2026-09-25,true,Everyone
+A0145,GitHub,clara-walker,E1041,,human,true,2026-09-30,true,maintainer
+A0146,AWS,clara-walker,E1041,,human,true,2026-09-29,true,ReadOnlyAccess
+A0147,Entra ID,martin.ruiz@northwind.example,E1042,,human,true,2026-09-23,true,All Employees;Dept-Engineering
+A0148,Okta,martin.ruiz@northwind.example,E1042,,human,true,2026-09-25,true,Everyone
+A0149,GitHub,martin-ruiz,E1042,,human,true,2026-09-14,true,member
+A0150,AWS,martin-ruiz,E1042,,human,true,2026-09-21,true,ReadOnlyAccess
+A0151,Entra ID,santiago.smith@northwind.example,E1043,,human,true,2026-09-13,true,All Employees;Dept-Engineering
+A0152,Okta,santiago.smith@northwind.example,E1043,,human,true,2026-09-23,true,Everyone
+A0153,GitHub,santiago-smith,E1043,,human,true,2026-09-17,true,member
+A0154,AWS,santiago-smith,E1043,,human,true,2026-09-14,true,ReadOnlyAccess
+A0155,Entra ID,hugo.morales@northwind.example,E1044,,human,true,2026-09-11,true,All Employees;Dept-Engineering
+A0156,Okta,hugo.morales@northwind.example,E1044,,human,true,2026-09-12,true,Everyone
+A0157,GitHub,hugo-morales,E1044,,human,true,2026-09-23,true,member
+A0158,AWS,hugo-morales,E1044,,human,true,2026-09-23,true,ReadOnlyAccess
+A0159,Entra ID,clara.rojas@northwind.example,E1045,,human,true,2026-09-18,true,All Employees;Dept-Engineering
+A0160,Okta,clara.rojas@northwind.example,E1045,,human,true,2026-09-21,true,Everyone
+A0161,GitHub,clara-rojas,E1045,,human,true,2026-09-12,true,member
+A0162,AWS,clara-rojas,E1045,,human,true,2026-09-29,true,PowerUserAccess
+A0163,Entra ID,mia.rojas@northwind.example,E1046,,human,true,2026-09-28,true,All Employees;Dept-Engineering
+A0164,Okta,mia.rojas@northwind.example,E1046,,human,true,2026-09-29,true,Everyone
+A0165,GitHub,mia-rojas,E1046,,human,true,2026-09-21,false,maintainer
+A0166,AWS,mia-rojas,E1046,,human,true,2026-09-25,true,PowerUserAccess
+A0167,Entra ID,ivan.davis@northwind.example,E1047,,human,true,2026-09-20,true,All Employees;Dept-Engineering
+A0168,Okta,ivan.davis@northwind.example,E1047,,human,true,2026-09-10,true,Everyone
+A0169,GitHub,ivan-davis,E1047,,human,true,2026-09-30,true,maintainer
+A0170,AWS,ivan-davis,E1047,,human,true,2026-09-23,true,ReadOnlyAccess
+A0171,Entra ID,elena.walker@northwind.example,E1048,,human,true,2026-09-30,true,All Employees;Dept-Engineering
+A0172,Okta,elena.walker@northwind.example,E1048,,human,true,2026-09-22,false,Everyone
+A0173,GitHub,elena-walker,E1048,,human,true,2026-09-24,true,member
+A0174,AWS,elena-walker,E1048,,human,true,2026-09-30,true,ReadOnlyAccess
+A0175,Entra ID,victoria.torres@northwind.example,E1049,,human,true,2026-09-19,true,All Employees;Dept-Engineering
+A0176,Okta,victoria.torres@northwind.example,E1049,,human,true,2026-09-26,true,Everyone
+A0177,GitHub,victoria-torres,E1049,,human,true,2026-09-23,true,member
+A0178,AWS,victoria-torres,E1049,,human,true,2026-09-24,true,ReadOnlyAccess
+A0179,Entra ID,clara.acosta@northwind.example,E1050,,human,true,2026-09-30,true,All Employees;Dept-Sales
+A0180,Okta,clara.acosta@northwind.example,E1050,,human,true,2026-09-25,true,Everyone
+A0181,Salesforce,clara.acosta@northwind.example,E1050,,human,true,2026-09-23,true,Sales User
+A0182,Entra ID,gabriel.suarez@northwind.example,E1051,,human,false,2026-09-17,true,All Employees;Dept-Sales
+A0183,Okta,gabriel.suarez@northwind.example,E1051,,human,false,2026-09-15,true,Everyone
+A0184,Salesforce,gabriel.suarez@northwind.example,E1051,,human,true,2026-09-15,true,Sales User
+A0185,Entra ID,sofia.acosta@northwind.example,E1052,,human,false,2026-08-16,true,All Employees;Dept-Sales
+A0186,Okta,sofia.acosta@northwind.example,E1052,,human,true,2026-08-18,true,Everyone
+A0187,Salesforce,sofia.acosta@northwind.example,E1052,,human,false,2026-08-19,true,Sales User
+A0188,Entra ID,diego.sosa@northwind.example,E1053,,human,false,2026-07-14,false,All Employees;Dept-Sales
+A0189,Okta,diego.sosa@northwind.example,E1053,,human,false,2026-07-16,true,Everyone
+A0190,Salesforce,diego.sosa@northwind.example,E1053,,human,false,2026-07-13,false,Sales User
+A0191,Entra ID,isabella.davis@northwind.example,E1054,,human,true,2026-09-16,true,All Employees;Dept-Sales
+A0192,Okta,isabella.davis@northwind.example,E1054,,human,true,2026-09-16,true,Everyone
+A0193,Salesforce,isabella.davis@northwind.example,E1054,,human,true,2026-09-12,false,Sales User;System Administrator
+A0194,Entra ID,zoe.garcia@northwind.example,E1055,,human,true,2026-09-19,true,All Employees;Dept-Sales
+A0195,Okta,zoe.garcia@northwind.example,E1055,,human,true,2026-09-16,true,Everyone
+A0196,Salesforce,zoe.garcia@northwind.example,E1055,,human,true,2026-09-19,true,Sales User
+A0197,Entra ID,diego.davis@northwind.example,E1056,,human,true,2026-09-30,true,All Employees;Dept-Sales
+A0198,Okta,diego.davis@northwind.example,E1056,,human,true,2026-09-27,true,Everyone
+A0199,Salesforce,diego.davis@northwind.example,E1056,,human,true,2026-09-27,true,Sales User
+A0200,Entra ID,santiago.castro@northwind.example,E1057,,human,true,2026-09-25,true,All Employees;Dept-Sales
+A0201,Okta,santiago.castro@northwind.example,E1057,,human,true,2026-09-19,true,Everyone
+A0202,Salesforce,santiago.castro@northwind.example,E1057,,human,true,2026-04-01,true,Sales User
+A0203,Entra ID,lucia.martinez@northwind.example,E1058,,human,true,2026-09-26,true,All Employees;Dept-Sales
+A0204,Okta,lucia.martinez@northwind.example,E1058,,human,true,2026-09-24,true,Everyone
+A0205,Salesforce,lucia.martinez@northwind.example,E1058,,human,true,2026-09-25,true,Sales User
+A0206,Entra ID,julia.wilson@northwind.example,E1059,,human,true,2026-09-17,false,All Employees;Dept-Sales
+A0207,Okta,julia.wilson@northwind.example,E1059,,human,true,2026-09-11,true,Everyone
+A0208,Salesforce,julia.wilson@northwind.example,E1059,,human,true,2026-09-23,true,Sales User
+A0209,Entra ID,isabella.castro@northwind.example,E1060,,human,true,2026-09-25,true,All Employees;Dept-Sales
+A0210,Okta,isabella.castro@northwind.example,E1060,,human,true,2026-09-27,true,Everyone
+A0211,Salesforce,isabella.castro@northwind.example,E1060,,human,true,2026-09-27,true,Sales User
+A0212,Entra ID,renata.smith@northwind.example,E1061,,human,true,2026-09-25,true,All Employees;Dept-Sales
+A0213,Okta,renata.smith@northwind.example,E1061,,human,true,2026-09-25,true,Everyone
+A0214,Salesforce,renata.smith@northwind.example,E1061,,human,true,2026-09-16,true,Sales User
+A0215,Entra ID,noah.davis@northwind.example,E1062,,human,true,2026-09-29,true,All Employees;Dept-Sales
+A0216,Okta,noah.davis@northwind.example,E1062,,human,true,2026-09-26,true,Everyone
+A0217,Salesforce,noah.davis@northwind.example,E1062,,human,true,2026-09-10,true,Sales User
+A0218,Entra ID,grace.silva@northwind.example,E1063,,human,true,2026-09-21,true,All Employees;Dept-Sales
+A0219,Okta,grace.silva@northwind.example,E1063,,human,true,2026-09-29,true,Everyone
+A0220,Salesforce,grace.silva@northwind.example,E1063,,human,true,2026-09-26,true,Sales User
+A0221,Entra ID,julia.herrera@northwind.example,E1064,,human,true,2026-09-29,true,All Employees;Dept-Sales
+A0222,Okta,julia.herrera@northwind.example,E1064,,human,true,2026-09-23,true,Everyone
+A0223,Salesforce,julia.herrera@northwind.example,E1064,,human,true,2026-09-13,true,Sales User
+A0224,Entra ID,elena.smith@northwind.example,E1065,,human,true,2026-09-23,true,All Employees;Dept-Sales
+A0225,Okta,elena.smith@northwind.example,E1065,,human,true,2026-09-17,true,Everyone
+A0226,Salesforce,elena.smith@northwind.example,E1065,,human,true,2026-09-10,true,Sales User
+A0227,Entra ID,martin.torres@northwind.example,E1066,,human,true,2026-09-21,true,All Employees;Dept-Sales
+A0228,Okta,martin.torres@northwind.example,E1066,,human,true,2026-09-26,true,Everyone
+A0229,Salesforce,martin.torres@northwind.example,E1066,,human,true,2026-09-17,true,Sales User
+A0230,Entra ID,tomas.suarez@northwind.example,E1067,,human,true,2026-09-28,true,All Employees;Dept-Sales
+A0231,Okta,tomas.suarez@northwind.example,E1067,,human,true,2026-09-23,true,Everyone
+A0232,Salesforce,tomas.suarez@northwind.example,E1067,,human,true,2026-09-24,true,Sales User
+A0233,Entra ID,renata.davis@northwind.example,E1068,,human,true,2026-09-29,true,All Employees;Dept-Sales
+A0234,Okta,renata.davis@northwind.example,E1068,,human,true,2026-09-27,true,Everyone
+A0235,Salesforce,renata.davis@northwind.example,E1068,,human,true,2026-09-19,true,Sales User
+A0236,Entra ID,paula.acosta@northwind.example,E1069,,human,true,2026-09-27,true,All Employees;Dept-Sales
+A0237,Okta,paula.acosta@northwind.example,E1069,,human,true,2026-09-17,true,Everyone
+A0238,Salesforce,paula.acosta@northwind.example,E1069,,human,true,2026-09-21,true,Sales User
+A0239,Entra ID,emily.castro@northwind.example,E1070,,human,true,2026-09-10,true,All Employees;Dept-CustomerSupport
+A0240,Okta,emily.castro@northwind.example,E1070,,human,true,2026-09-24,true,Everyone
+A0241,Salesforce,emily.castro@northwind.example,E1070,,human,true,2026-09-22,true,Support Agent
+A0242,Entra ID,santiago.torres@northwind.example,E1071,,human,false,2026-09-04,true,All Employees;Dept-CustomerSupport
+A0243,Okta,santiago.torres@northwind.example,E1071,,human,false,2026-08-31,false,Everyone
+A0244,Salesforce,santiago.torres@northwind.example,E1071,,human,false,2026-09-03,true,Support Agent
+A0245,Entra ID,elena.clark@northwind.example,E1072,,human,false,2026-07-27,true,All Employees;Dept-CustomerSupport
+A0246,Okta,elena.clark@northwind.example,E1072,,human,false,2026-07-27,true,Everyone
+A0247,Salesforce,elena.clark@northwind.example,E1072,,human,false,2026-07-31,true,Support Agent
+A0248,Entra ID,joaquin.castro@northwind.example,E1073,,human,true,2026-09-13,true,All Employees;Dept-CustomerSupport
+A0249,Okta,joaquin.castro@northwind.example,E1073,,human,true,2026-09-29,true,Everyone
+A0250,Salesforce,joaquin.castro@northwind.example,E1073,,human,true,2026-09-25,true,Support Agent
+A0251,Entra ID,ivan.alvarez@northwind.example,E1074,,human,true,2026-09-26,true,All Employees;Dept-CustomerSupport
+A0252,Okta,ivan.alvarez@northwind.example,E1074,,human,true,2026-09-17,true,Everyone
+A0253,Salesforce,ivan.alvarez@northwind.example,E1074,,human,true,2026-09-27,false,Support Agent
+A0254,Entra ID,james.medina@northwind.example,E1075,,human,true,2026-09-18,true,All Employees;Dept-CustomerSupport
+A0255,Okta,james.medina@northwind.example,E1075,,human,true,2026-09-12,true,Everyone
+A0256,Salesforce,james.medina@northwind.example,E1075,,human,true,2026-09-17,true,Support Agent
+A0257,Entra ID,renata.miller@northwind.example,E1076,,human,true,2026-09-12,true,All Employees;Dept-CustomerSupport
+A0258,Okta,renata.miller@northwind.example,E1076,,human,true,2026-09-27,true,Everyone
+A0259,Salesforce,renata.miller@northwind.example,E1076,,human,true,2026-09-23,true,Support Agent
+A0260,Entra ID,paula.alvarez@northwind.example,E1077,,human,true,2026-09-30,true,All Employees;Dept-CustomerSupport
+A0261,Okta,paula.alvarez@northwind.example,E1077,,human,true,2026-09-30,true,Everyone
+A0262,Salesforce,paula.alvarez@northwind.example,E1077,,human,true,2026-09-23,true,Support Agent
+A0263,Entra ID,ava.wilson@northwind.example,E1078,,human,true,2026-09-12,true,All Employees;Dept-CustomerSupport
+A0264,Okta,ava.wilson@northwind.example,E1078,,human,true,2026-09-11,true,Everyone
+A0265,Salesforce,ava.wilson@northwind.example,E1078,,human,true,2026-09-27,true,Support Agent
+A0266,Entra ID,emma.rojas@northwind.example,E1079,,human,true,2026-09-11,true,All Employees;Dept-CustomerSupport
+A0267,Okta,emma.rojas@northwind.example,E1079,,human,true,2026-06-25,true,Everyone
+A0268,Salesforce,emma.rojas@northwind.example,E1079,,human,true,2026-09-10,true,Support Agent
+A0269,Entra ID,tomas.silva@northwind.example,E1080,,human,true,2026-09-17,true,All Employees;Dept-CustomerSupport
+A0270,Okta,tomas.silva@northwind.example,E1080,,human,true,2026-09-18,true,Everyone
+A0271,Salesforce,tomas.silva@northwind.example,E1080,,human,true,2026-09-17,true,Support Agent
+A0272,Entra ID,leo.ruiz@northwind.example,E1081,,human,true,2026-09-11,true,All Employees;Dept-CustomerSupport
+A0273,Okta,leo.ruiz@northwind.example,E1081,,human,true,2026-09-25,true,Everyone
+A0274,Salesforce,leo.ruiz@northwind.example,E1081,,human,true,2026-09-30,true,Support Agent
+A0275,Entra ID,santiago.wilson@northwind.example,E1082,,human,true,2026-09-19,true,All Employees;Dept-CustomerSupport
+A0276,Okta,santiago.wilson@northwind.example,E1082,,human,true,2026-09-19,true,Everyone
+A0277,Salesforce,santiago.wilson@northwind.example,E1082,,human,true,2026-09-19,true,Support Agent
+A0278,Entra ID,camila.castro@northwind.example,E1083,,human,true,2026-09-22,true,All Employees;Dept-CustomerSupport
+A0279,Okta,camila.castro@northwind.example,E1083,,human,true,2026-09-10,true,Everyone
+A0280,Salesforce,camila.castro@northwind.example,E1083,,human,true,2026-09-13,true,Support Agent
+A0281,Entra ID,leo.walker@northwind.example,E1084,,human,true,2026-09-27,true,All Employees;Dept-CustomerSupport
+A0282,Okta,leo.walker@northwind.example,E1084,,human,true,2026-09-25,true,Everyone
+A0283,Salesforce,leo.walker@northwind.example,E1084,,human,true,2026-09-23,true,Support Agent
+A0284,Entra ID,leo.suarez@northwind.example,E1085,,human,true,2026-09-21,true,All Employees;Dept-CustomerSupport
+A0285,Okta,leo.suarez@northwind.example,E1085,,human,true,2026-09-30,true,Everyone
+A0286,Salesforce,leo.suarez@northwind.example,E1085,,human,true,2026-09-19,false,Support Agent
+A0287,Entra ID,ivan.morales@northwind.example,E1086,,human,true,2026-09-13,true,All Employees;Dept-CustomerSupport
+A0288,Okta,ivan.morales@northwind.example,E1086,,human,true,2026-09-28,true,Everyone
+A0289,Salesforce,ivan.morales@northwind.example,E1086,,human,true,2026-09-14,true,Support Agent
+A0290,Entra ID,victoria.benitez@northwind.example,E1087,,human,true,2026-09-13,true,All Employees;Dept-CustomerSupport
+A0291,Okta,victoria.benitez@northwind.example,E1087,,human,true,2026-09-29,true,Everyone
+A0292,Salesforce,victoria.benitez@northwind.example,E1087,,human,true,2026-09-12,true,Support Agent
+A0293,Entra ID,zoe.romero@northwind.example,E1088,,human,true,2026-09-20,true,All Employees;Dept-Operations
+A0294,Okta,zoe.romero@northwind.example,E1088,,human,true,2026-09-19,true,Everyone
+A0295,ERP,zoe.romero@northwind.example,E1088,,human,true,2026-09-24,true,AR.ViewReports
+A0296,Entra ID,benjamin.ruiz@northwind.example,E1089,,human,true,2026-04-28,true,All Employees;Dept-Operations
+A0297,Okta,benjamin.ruiz@northwind.example,E1089,,human,true,2026-04-24,true,Everyone
+A0298,ERP,benjamin.ruiz@northwind.example,E1089,,human,true,2026-05-27,true,AR.ViewReports
+A0299,Entra ID,grace.sosa@northwind.example,E1090,,human,true,2026-09-26,true,All Employees;Dept-Operations
+A0300,Okta,grace.sosa@northwind.example,E1090,,human,true,2026-09-13,true,Everyone
+A0301,ERP,grace.sosa@northwind.example,E1090,,human,true,2026-09-12,true,AR.ViewReports
+A0302,Entra ID,emma.herrera@northwind.example,E1091,,human,true,2026-09-17,true,All Employees;Dept-Operations
+A0303,Okta,emma.herrera@northwind.example,E1091,,human,true,2026-09-17,true,Everyone
+A0304,ERP,emma.herrera@northwind.example,E1091,,human,true,2026-09-27,true,AR.ViewReports
+A0305,Entra ID,renata.romero@northwind.example,E1092,,human,true,2026-09-29,true,All Employees;Dept-Operations
+A0306,Okta,renata.romero@northwind.example,E1092,,human,true,2026-09-13,true,Everyone
+A0307,ERP,renata.romero@northwind.example,E1092,,human,true,2026-09-14,true,AR.ViewReports
+A0308,Entra ID,julia.romero@northwind.example,E1093,,human,true,2026-09-27,true,All Employees;Dept-Operations
+A0309,Okta,julia.romero@northwind.example,E1093,,human,true,2026-09-12,true,Everyone
+A0310,ERP,julia.romero@northwind.example,E1093,,human,true,,true,AR.ViewReports
+A0311,Entra ID,joaquin.fernandez@northwind.example,E1094,,human,true,2026-09-22,true,All Employees;Dept-Operations
+A0312,Okta,joaquin.fernandez@northwind.example,E1094,,human,true,2026-09-25,true,Everyone
+A0313,ERP,joaquin.fernandez@northwind.example,E1094,,human,true,2026-09-10,true,AR.ViewReports
+A0314,Entra ID,lucas.torres@northwind.example,E1095,,human,true,2026-09-30,true,All Employees;Dept-Operations
+A0315,Okta,lucas.torres@northwind.example,E1095,,human,true,2026-09-23,true,Everyone
+A0316,ERP,lucas.torres@northwind.example,E1095,,human,true,2026-09-23,true,AR.ViewReports
+A0317,Entra ID,benjamin.medina@northwind.example,E1096,,human,true,2026-09-23,true,All Employees;Dept-Operations
+A0318,Okta,benjamin.medina@northwind.example,E1096,,human,true,2026-09-22,true,Everyone
+A0319,ERP,benjamin.medina@northwind.example,E1096,,human,true,2026-09-22,true,AR.ViewReports
+A0320,Entra ID,leo.brown@northwind.example,E1097,,human,true,2026-09-30,true,All Employees;Dept-Operations
+A0321,Okta,leo.brown@northwind.example,E1097,,human,true,2026-09-19,true,Everyone
+A0322,ERP,leo.brown@northwind.example,E1097,,human,true,2026-09-14,true,AR.ViewReports
+A0323,Entra ID,daniel.sosa@northwind.example,E1098,,human,true,2026-09-12,true,All Employees;Dept-Operations
+A0324,Okta,daniel.sosa@northwind.example,E1098,,human,true,2026-09-17,true,Everyone
+A0325,ERP,daniel.sosa@northwind.example,E1098,,human,true,2026-09-18,true,AR.ViewReports
+A0326,Entra ID,paula.romero@northwind.example,E1099,,human,true,2026-09-26,true,All Employees;Dept-Operations
+A0327,Okta,paula.romero@northwind.example,E1099,,human,true,2026-09-10,true,Everyone
+A0328,ERP,paula.romero@northwind.example,E1099,,human,true,2026-09-24,false,AR.ViewReports
+A0329,Entra ID,bruno.rojas@northwind.example,E1100,,human,true,2026-09-10,true,All Employees;Dept-HR;HR Data Access
+A0330,Okta,bruno.rojas@northwind.example,E1100,,human,true,2026-09-10,true,Everyone
+A0331,Entra ID,valentina.fernandez@northwind.example,E1101,,human,true,2026-05-26,true,All Employees;Dept-HR;HR Data Access
+A0332,Okta,valentina.fernandez@northwind.example,E1101,,human,true,2026-05-22,true,Everyone
+A0333,Entra ID,elena.romero@northwind.example,E1102,,human,true,2026-09-29,true,All Employees;Dept-HR;HR Data Access
+A0334,Okta,elena.romero@northwind.example,E1102,,human,true,2026-09-24,true,Everyone
+A0335,Entra ID,valentina.sosa@northwind.example,E1103,,human,true,2026-09-23,true,All Employees;Dept-HR;HR Data Access
+A0336,Okta,valentina.sosa@northwind.example,E1103,,human,true,2026-09-15,true,Everyone
+A0337,Entra ID,diego.taylor@northwind.example,E1104,,human,true,2026-09-19,true,All Employees;Dept-HR;HR Data Access
+A0338,Okta,diego.taylor@northwind.example,E1104,,human,true,2026-09-28,true,Everyone
+A0339,Entra ID,lucas.martinez@northwind.example,E1105,,human,true,2026-09-27,true,All Employees;Dept-HR;HR Data Access
+A0340,Okta,lucas.martinez@northwind.example,E1105,,human,true,2026-09-26,true,Everyone
+A0341,Entra ID,james.benitez@northwind.example,E1106,,human,true,2026-09-18,true,All Employees;Dept-HR;HR Data Access
+A0342,Okta,james.benitez@northwind.example,E1106,,human,true,2026-09-21,true,Everyone
+A0343,Entra ID,agustin.johnson@northwind.example,E1107,,human,true,2026-09-19,true,All Employees;Dept-IT;Global Administrator
+A0344,Okta,agustin.johnson@northwind.example,E1107,,human,true,2026-09-19,true,Everyone;Super Admin
+A0345,Entra ID,sofia.rojas@northwind.example,E1108,,human,true,2026-08-27,true,All Employees;Dept-IT;User Administrator
+A0346,Okta,sofia.rojas@northwind.example,E1108,,human,false,2026-08-26,true,Everyone;Helpdesk Admin
+A0347,Entra ID,sofia.torres@northwind.example,E1109,,human,true,2026-09-10,true,All Employees;Dept-IT;User Administrator
+A0348,Okta,sofia.torres@northwind.example,E1109,,human,true,2026-09-24,true,Everyone;Helpdesk Admin
+A0349,Entra ID,isabella.alvarez@northwind.example,E1110,,human,true,2026-09-30,true,All Employees;Dept-IT
+A0350,Okta,isabella.alvarez@northwind.example,E1110,,human,true,2026-09-11,true,Everyone;Helpdesk Admin
+A0351,Entra ID,bruno.castro@northwind.example,E1111,,human,true,2026-09-27,true,All Employees;Dept-IT
+A0352,Okta,bruno.castro@northwind.example,E1111,,human,true,2026-09-13,true,Everyone;Helpdesk Admin
+A0353,Entra ID,diego.suarez@northwind.example,E1112,,human,true,2026-09-30,true,All Employees;Dept-IT
+A0354,Okta,diego.suarez@northwind.example,E1112,,human,true,2026-09-17,false,Everyone;App Admin;Helpdesk Admin
+A0355,Entra ID,olivia.ortiz@northwind.example,E1113,,human,true,2026-09-19,true,All Employees;Dept-IT
+A0356,Okta,olivia.ortiz@northwind.example,E1113,,human,true,2026-09-11,true,Everyone;Helpdesk Admin
+A0357,Entra ID,olivia.taylor@northwind.example,E1114,,human,true,2026-09-28,true,All Employees;Dept-IT
+A0358,Okta,olivia.taylor@northwind.example,E1114,,human,true,2026-09-30,true,Everyone;Helpdesk Admin
+A0359,Entra ID,diego.ruiz@northwind.example,E1115,,human,true,2026-09-25,true,All Employees;Dept-IT
+A0360,Okta,diego.ruiz@northwind.example,E1115,,human,true,2026-09-17,true,Everyone;Helpdesk Admin
+A0361,Entra ID,victoria.acosta@northwind.example,E1116,,human,true,2026-09-30,true,All Employees;Dept-Security;Privileged Role Administrator
+A0362,Okta,victoria.acosta@northwind.example,E1116,,human,true,2026-09-27,true,Everyone;Super Admin
+A0363,AWS,victoria-acosta,E1116,,human,true,2026-09-17,true,SecurityAudit
+A0364,Entra ID,luna.clark@northwind.example,E1117,,human,true,2026-09-23,true,All Employees;Dept-Security
+A0365,Okta,luna.clark@northwind.example,E1117,,human,true,2026-09-26,true,Everyone
+A0366,AWS,luna-clark,E1117,,human,true,2026-09-26,true,SecurityAudit
+A0367,Entra ID,luna.johnson@northwind.example,E1118,,human,true,2026-09-21,true,All Employees;Dept-Security
+A0368,Okta,luna.johnson@northwind.example,E1118,,human,true,2026-09-18,true,Everyone
+A0369,AWS,luna-johnson,E1118,,human,true,2026-09-22,true,SecurityAudit
+A0370,Entra ID,mateo.fernandez@northwind.example,E1119,,human,true,2026-09-19,true,All Employees;Dept-Security
+A0371,Okta,mateo.fernandez@northwind.example,E1119,,human,true,2026-09-17,true,Everyone
+A0372,AWS,mateo-fernandez,E1119,,human,true,2026-09-18,true,SecurityAudit
+A0373,Entra ID,emily.davis@northwind.example,E1120,,human,true,2026-09-10,true,All Employees;Dept-Security
+A0374,Okta,emily.davis@northwind.example,E1120,,human,true,2026-09-15,true,Everyone
+A0375,AWS,emily-davis,E1120,,human,true,2026-09-11,true,SecurityAudit
+A0376,Entra ID,james.rojas@northwind.example,E1121,,human,true,2026-09-26,true,All Employees;Dept-Security
+A0377,Okta,james.rojas@northwind.example,E1121,,human,true,2026-09-26,true,Everyone
+A0378,AWS,james-rojas,E1121,,human,true,2026-09-13,true,SecurityAudit
+A0379,AWS,sofia-torres,E1109,,human,true,2026-09-23,true,AdministratorAccess
+A0380,Salesforce,ext.mrios@partner.example,E9001,,human,true,2026-09-15,true,System Administrator;Sales User
+A0381,AWS,contractor-pgomez,E9002,,human,true,2026-08-17,true,PowerUserAccess
+A0382,GitHub,test-user-old,,,human,true,2025-12-04,true,member
+A0383,AWS,svc-backup,,E1109,service,true,2026-09-29,false,BackupOperator
+A0384,AWS,svc-deploy,,E1109,service,true,2026-09-29,false,AdministratorAccess
+A0385,ERP,svc-payroll-sync,,E1008,service,true,2026-09-29,false,GL.PostJournal
+A0386,Salesforce,svc-reporting,,,service,true,2026-09-29,false,Read Only
+A0387,ERP,finance-shared,,,shared,true,2026-09-27,false,AP.EnterInvoice;AR.ViewReports
+A0388,Okta,okta-breakglass,,E1116,shared,true,2026-09-02,false,Super Admin
+A0389,ERP,ivan.alvarez@northwind.example,E1074,,human,true,2026-09-15,true,AP.EnterInvoice
+A0390,GitHub,isabella-castro,E1060,,human,true,2026-09-25,false,member
+A0391,Salesforce,emma.herrera@northwind.example,E1091,,human,true,2026-09-19,true,Sales User
