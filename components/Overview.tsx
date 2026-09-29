@@ -62,7 +62,7 @@ export default function Overview({ ctx }: { ctx: Ctx }) {
         </div>
       </Card>
 
-      <div className="grid gap-6 lg:grid-cols-5">
+      <div id="controls" className="grid scroll-mt-4 gap-6 lg:grid-cols-5">
         <Card className="lg:col-span-3">
           <CardHeader title="Findings by control" hint="Each rule tests one access-review control. Click to see its findings." />
           <ul className="divide-y divide-line">

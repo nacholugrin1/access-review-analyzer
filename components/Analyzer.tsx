@@ -7,14 +7,13 @@ import type { Account, AnalysisSettings, Decision, Employee, ReviewDecision } fr
 import type { Ctx, FindingFilter } from "./context";
 import DataLoader from "./DataLoader";
 import FindingsView from "./FindingsView";
-import HowToUse from "./HowToUse";
+import HowToUse, { type Tab } from "./HowToUse";
 import IdentitiesView from "./IdentitiesView";
 import Overview from "./Overview";
 import PolicyView from "./PolicyView";
 import ReportView from "./ReportView";
 import ReviewView from "./ReviewView";
 
-type Tab = "overview" | "findings" | "review" | "identities" | "policy" | "report";
 const TABS: { id: Tab; label: string }[] = [
   { id: "overview", label: "Overview" },
   { id: "findings", label: "Findings" },
@@ -179,13 +178,18 @@ export default function Analyzer() {
           <div className="flex items-center gap-2">
             <button
               type="button"
+              aria-expanded={guideOpen}
               onClick={() => {
-                setGuideOpen(true);
-                setTab("overview");
+                if (guideOpen) {
+                  closeGuide();
+                } else {
+                  setGuideOpen(true);
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }
               }}
-              className="rounded-lg px-2.5 py-1.5 text-sm font-medium text-brand hover:bg-brand-soft"
+              className={`rounded-lg px-2.5 py-1.5 text-sm font-medium text-brand hover:bg-brand-soft ${guideOpen ? "bg-brand-soft" : ""}`}
             >
-              How to use
+              {guideOpen ? "Hide guide" : "How to use"}
             </button>
             {ready && (
               <span className="tabular hidden text-xs text-muted sm:inline">
@@ -236,10 +240,15 @@ export default function Analyzer() {
       <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6">
         {loadError && <p className="mb-4 rounded-lg bg-crit-soft px-4 py-3 text-sm text-crit">{loadError}</p>}
         {!ready && !loadError && <p className="py-20 text-center text-sm text-muted">Loading dataset…</p>}
-        {ready && tab === "overview" && guideOpen && (
+        {ready && guideOpen && (
           <HowToUse
+            current={tab}
             onClose={closeGuide}
             onGo={(t) => {
+              if (t === "overview" && tab === "overview") {
+                document.getElementById("controls")?.scrollIntoView({ behavior: "smooth" });
+                return;
+              }
               setTab(t);
               if (t === "findings") setFilter({});
             }}
